@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Landing Page</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/069ac9662a.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/FreeTrainIcon.png">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="container logo-nav-container">
+        <a href="/Product Landing Page/main.html" class="navbar-brand">
+          <img id="header-img"  src="Images/FreeTrainLogo2.png" alt="">
+        </a>
+        <span class="menu-icon"><i class="fas fa-bars"></i></span>
+          <nav id="nav-bar">
+            <ul class="show">
+              <li class="nav-link"><a href="#home">Home</a></li>
+              <li class="nav-link"><a href="#about">About</a></li>
+              <li class="nav-link"><a href="#benefits">Benefits</a></li>
+              <li class="nav-link"><a href="#products">Products</a></li>
+              <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+  <!-- Phrase -->
+  <section id="phrase">
+    <h2>"The road will be hard, but no result comes without effort"<span style="font-size:0.5em;">--Anonymous</span></h2>
+  </section>
+
+  <!-- Home -->
+  <section id="home">
+    <p id="summary">We offer you a wide range of services: <br>
+      - If you are a personal trainer, we give you the opportunity to share your skills, experience, abilities, cost, hours and additional information to expand your potential clients. <br>
+      - If you are a person who is looking for a personal trainer, we put in your hands everything you need to know to choose what suits you best.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="about-img">
+      <img src="Images/We.jpeg" alt="">
+    </div>
+    <div class="about-description">
+      <p>We are a group of engineering students who decided to include sport in our daily routines thanks to one of our members, after discovering its impact on our lives we wanted to carry out a project that disseminates the knowledge that we managed to acquire throughout this period.</p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits">
+      <div class="benefit">
+        <div class="icon">
+          <i class="far fa-heart fa-7x"></i>
+        </div>
+        <div class="generalDescription">
+          <h3 class="titleB">Reduces risk of coronary heart disease</h3>
+          <p class="descriptionB">By exerting effort on the heart, it is less likely to suffer a heart attack, high blood pressure, high cholesterol, etc.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="icon">
+          <i class="fas fa-brain fa-7x"></i>
+        </div>
+        <div class="generalDescription">
+          <h3 class="titleB">Improves mental health</h3>
+          <p class="descriptionB">By exercising we release chemicals that make us feel more relaxed, thus helping to reduce stress and avoid depression.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="icon">
+          <i class="fab fa-leanpub fa-7x"></i>
+        </div>
+        <div class="generalDescription">
+          <h3 class="titleB">Improve learning</h3>
+          <p class="descriptionB">Exercise stimulates the production of proteins that maintain the structure and function of the brain, as well as memory and concentration.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="icon">
+          <i class="fas fa-bed fa-7x"></i>
+        </div>
+        <div class="generalDescription">
+          <h3 class="titleB">Sleep better</h3>
+          <p class="descriptionB">Thanks to the neurotransmitters that are expelled when exercising and being more relaxed, the time to fall asleep is reduced and the time in which we stay together is extended.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Video -->
+  <section class="video">
+      <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/xYTOV7Mj8Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <div class="product">
+      <div class="product-name">
+        <h4>ROUTINES</h4>
+      </div>
+      <div class="description">
+        <img src="Images/routines.png" alt="">
+        <h4 class="price">Since $30</h3>
+          <p>Set of exercises designed with the objective you want to achieve and according to the materials at your fingertips.</p>
+      </div>
+        <a class="btn" href="#">SELECT</a>
+    </div>
+    <div class="product">
+      <div class="product-name">
+        <h4>EQUIPMENT</h4>
+      </div>
+      <div class="description">
+        <img src="Images/equipment.png" alt="">
+        <h4 class="price">Since $10</h3>
+          <p>Products that will be of great help to perform a large number of exercises that will work with various muscle groups.</p>
+      </div>
+        <a class="btn" href="#">SELECT</a>
+    </div>
+    <div class="product">
+      <div class="product-name">
+        <h4>DIETS</h4>
+      </div>
+      <div class="description">
+        <img src="Images/diets.png" alt="">
+        <h4 class="price">Since $20</h3>
+          <p>Nutritional plans geared towards reaching your goal, we also take into account your economic or geographical limitations to access certain foods.</p>
+      </div>
+      <a class="btn" href="#">SELECT</a>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section id="contact">
+    <form class="" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <input type="email" id="email" name="email" value="" placeholder="Enter your email">
+      <br>
+      <input type="submit" id="submit" name="submit" value="GET STARTED">
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Copyright 2022, designed by @GiannyGM, all rights reserved</p>
+  </div>
+</footer>
+
+<!-- Script -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="scripts.js"></script>
+
+  </body>
+</html>
